@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>slib-ld</name>
+	<comment>Semantic measures library. NO_M2ECLIPSE_SUPPORT: Project files created with the maven-eclipse-plugin are not supported in M2Eclipse.</comment>
+	<projects>
+		<project>slib-graph</project>
+		<project>slib-utils</project>
+		<project>slib-graph-model-impl</project>
+		<project>slib-graph-model</project>
+		<project>slib-graph-algo</project>
+		<project>slib-graph-utils</project>
+		<project>slib-tools-module</project>
+		<project>slib-graph-io</project>
+		<project>slib-indexer</project>
+		<project>ldq</project>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>org.eclipse.m2e.core.maven2Builder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+		<nature>org.eclipse.m2e.core.maven2Nature</nature>
+	</natures>
+</projectDescription>
